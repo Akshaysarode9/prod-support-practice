@@ -1,0 +1,23 @@
+==============================
+ Linux Health Check Report
+ Hostname: LAPTOP-IJ6U6P21
+ Date: Wed Jan 21 17:02:45 IST 2026
+==============================
+
+Uptime:
+./scripts/health_check.sh: line 24: uptime: command not found
+Uptime command not available
+
+Disk Usage:
+Filesystem            Size  Used Avail Use% Mounted on
+C:/Program Files/Git  250G  201G   50G  81% /
+D:                    108G   35G   73G  33% /d
+F:                     98G   58G   41G  59% /f
+
+Memory Usage:
+./scripts/health_check.sh: line 32: free: command not found
+Free command not available
+
+Health check completed.
+------------------------------
+ALERT: Disk usage is 52086200%!
